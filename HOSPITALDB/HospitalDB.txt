@@ -1,0 +1,20 @@
+Question 9 : 
+
+Objective:
+Design a system to manage patients and doctors.
+Entities:
+Patient
+Doctor
+Appointment
+Department
+Rlationships:
+One Doctor belongs to one Department
+One Patient can book many Appointments
+One Doctor handles many Appointments
+Draw ER Diagram with cardinality
+Normalize tables (up to 3NF)
+Create tables in MySQL
+Write queries:
+List appointments for a doctor
+Count patients per department
+Show upcoming appointments

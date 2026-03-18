@@ -1,0 +1,15 @@
+Question 10
+Database
+Task: Online Food Delivery System
+Entities:
+Customer
+Restaurant
+Food_Item
+Order
+Delivery_Person
+Order_Item
+Relationships:
+Customer places many Orders
+Order contains many Food Items (M:N → Order_Item)
+One Restaurant has many Food Items
+One Delivery Person delivers many Orders
